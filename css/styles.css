@@ -9816,6 +9816,7 @@ p {
   opacity: 70%;
 }
 
+
 @media (min-width: 768px) {
   section {
     padding: 9rem 0;
@@ -9924,6 +9925,9 @@ header.masthead .masthead-heading {
   margin-bottom: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+header.masthead .masthead-heading span{
+  font-size: 2.2rem;
+}
 
 @media (min-width: 768px) {
   header.masthead {
@@ -9935,6 +9939,12 @@ header.masthead .masthead-heading {
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
+  }
+  header.masthead .masthead-heading span{
+    font-size: 2.8rem;
+  }
+  .service-text .text{
+    text-align: start;
   }
 }
 
@@ -10122,6 +10132,10 @@ header.masthead .masthead-heading {
   height: 2.75rem;
 }
 
+.service-text  p{
+  font-weight: 400;
+  color: #6c757d;
+}
 section#contact {
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
@@ -10131,6 +10145,11 @@ section#contact {
 section#contact .section-heading {
   color: #fff;
 }
+section#contact a{
+  margin-top: -60px;
+  transform: scale(1.2);
+}
+
 footer p{
   font-size: 1.15rem;
   font-weight: 500;
